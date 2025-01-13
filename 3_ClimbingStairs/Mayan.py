@@ -6,7 +6,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n == 1:
+        if n < 2:
             return 1
         
         ways = 1
